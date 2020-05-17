@@ -11,8 +11,8 @@ Linux Terminalsに
 npm init 
 を入力する．
 
-index.jsへの入力内容
-----------------------------------------------------------------------
+# index.jsへの入力内容
+
 let port = process.env.PORT || 5000;
 const http = require('http');
 http.createServer((req, res) => {
@@ -20,8 +20,7 @@ http.createServer((req, res) => {
   res.end('Hello World\n');
 }).listen(port, () => console.log('Server http://localhost:'+port));
 
------------------------------------------------------------------------
 
-packeage.json の　scripts 内に
+# packeage.json の　scripts 内に
 "start": "node index.js",
 を入力
