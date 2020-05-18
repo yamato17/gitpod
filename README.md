@@ -24,3 +24,5 @@ http.createServer((req, res) => {
 # packeage.json の　scripts 内に
 "start": "node index.js",
 を入力
+
+ああああ
