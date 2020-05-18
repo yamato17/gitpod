@@ -25,4 +25,3 @@ http.createServer((req, res) => {
 "start": "node index.js",
 を入力
 
-ああああ
