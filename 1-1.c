@@ -8,15 +8,15 @@ int main(void){
     if(a%4==0){
         if(a%100==0){
             if(a%400==0){
-                printf("%dはうるう年である.", a);
+                printf("%dはうるう年である.\n", a);
             }else{
-                printf("%dはうるう年ではない.", a);
+                printf("%dはうるう年ではない.\n", a);
             }
         }else{
-            printf("%dはうるう年である.", a);
+            printf("%dはうるう年である.\n", a);
         }
     }else{
-        printf("%dはうるう年ではない.", a);
+        printf("%dはうるう年ではない.\n", a);
     }
     
     return 0;
