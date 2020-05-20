@@ -2,6 +2,7 @@
 
 int main(void){
     int a;
+    printf("値を入力してください.\n");
     scanf("%d",&a);
     
     if(a%4==0){
