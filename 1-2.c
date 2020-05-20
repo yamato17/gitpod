@@ -1,9 +1,11 @@
 #include <stdio.h>
 int mymax(int data[]){
-    int minimum=0;
+    int minimum;
     int i;
+    minimum=data[0];
     for(i=1;i<10;i++){
-        minimum+=minimum+data[i];
+        if(data[i]>minimum){
+            minimum=data[i];
         }
     }
     return minimum;
